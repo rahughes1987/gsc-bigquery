@@ -3,3 +3,4 @@
 config/*.pickle
 config/google_accounts.txt
 config/client_id.json
+Pipfile.lock
