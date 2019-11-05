@@ -1,3 +1,5 @@
 # Ignore data and config
 *.csv
-*.pickle
+config/*.pickle
+config/google_accounts.txt
+config/client_id.json
