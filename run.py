@@ -20,7 +20,7 @@ END_DATE = max(start, end).strftime("%Y-%m-%d")
 
 
 # Loop through all the google accounts in the google_accounts.txt file
-accounts_filename = 'google_accounts.txt'
+accounts_filename = 'config/google_accounts.txt'
 accounts = []
 with open(accounts_filename) as f_in:
 	accounts = (line.rstrip() for line in f_in) 

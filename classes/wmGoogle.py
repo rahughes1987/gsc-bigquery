@@ -26,7 +26,7 @@ class wmGSC:
 		try:
 		    credentials = pickle.load(open("config/credentials-"+ACCOUNT+".pickle", "rb"))
 		except (OSError, IOError) as e:
-			flow = InstalledAppFlow.from_client_secrets_file("client-id.json", scopes=OAUTH_SCOPE)
+			flow = InstalledAppFlow.from_client_secrets_file("config/client_id.json", scopes=OAUTH_SCOPE)
 			credentials = flow.run_console()
 			pickle.dump(credentials, open("config/credentials-"+ACCOUNT+".pickle", "wb"))
 
