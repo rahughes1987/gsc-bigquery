@@ -3,10 +3,9 @@
 This collection of scripts parses a list of accounts to download GSC data over a selected range of time.
 ## Installation
 
-Need to write install instructions, potentially create a setup.py file.
-```bash
-$ xxxxx
-```
+_Need to write install instructions, potentially create a setup.py file._
+
+_Need to make sure I include details on how to create Google account credentials as well as explain where all the variables and samples are._
 
 ## Required Packages
 - pandas
@@ -40,8 +39,8 @@ $ python run.py --endDate # as the name implies
 
 ## Notes
 
-- *This currently only runs on CLI if you have it open due to credential requests.
-If you haven't updated any accounts and know the credentials are still valid you can run it in the background. But, it may break.*
-- *This needs to have more features added, like the ability to run a single account rather than just a single siteUrl.*
-- *When running in the background, or forced, it should push to BigQuery. Otherwise should default to a CSV export.*
+- _This currently only runs on CLI if you have it open due to credential requests.
+If you haven't updated any accounts and know the credentials are still valid you can run it in the background. But, it may break._
+- _This needs to have more features added, like the ability to run a single account rather than just a single siteUrl._
+- _When running in the background, or forced, it should push to BigQuery. Otherwise should default to a CSV export._
 
