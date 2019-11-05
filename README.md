@@ -36,8 +36,8 @@ $ python run.py --endDate # as the name implies
 - If the **startDate** is later than the **endDate** then the **startDate** is used as both Start and End.
 - If no **endDate** is provided but **startDate** is, it uses the largest value of 5 days ago and the Start
 - If no **startDate** is provided but **endDate** is:
-  - If **endDate** is more than 5 days ago this argument gets ignored and it returns to default
-  - If it is less than 5 days ago then **startDate** is default (5 days ago) and **endDate** works as expected
+   - If **endDate** is more than 5 days ago this argument gets ignored and it returns to default
+   - If it is less than 5 days ago then **startDate** is default (5 days ago) and **endDate** works as expected
 
 
 ## Notes
