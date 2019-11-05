@@ -14,7 +14,10 @@ _Need to make sure I include details on how to create Google account credentials
 
 ## Usage
 
-First update the **google_accounts.txt** file.
+1. Install all required packages
+2. Create a Google project with API access for GSC and Oauth credentials
+ - Download the _client_id.json_ and replace **config/client-id.json.sample**
+3. Update the **config/google_accounts.txt.sample** file
 
 Then simply run the script to gather the GSC data for 5 days ago.
 ```bash
