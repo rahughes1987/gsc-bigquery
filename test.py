@@ -96,4 +96,4 @@ for date in date_range(start_date, end_date):
 
 
 df = pd.DataFrame(output_rows, columns=['date','query','page', 'country', 'device', 'clicks', 'impressions', 'ctr', 'avg_position'])
-df.to_csv("gsc_output-"+re.sub(r'\W+', '', SITE_URL)+"_"+start_date.strftime('%Y%m%d')+"-"+end_date.strftime('%Y%m%d')+".csv")
+df.to_csv("data/gsc_output-"+re.sub(r'\W+', '', SITE_URL)+"_"+start_date.strftime('%Y%m%d')+"-"+end_date.strftime('%Y%m%d')+".csv")
