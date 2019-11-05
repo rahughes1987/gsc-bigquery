@@ -1,2 +1,3 @@
-# Ignore datafiles
-data/*.csv
+# Ignore data and config
+*.csv
+*.pickle
